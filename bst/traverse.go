@@ -1,13 +1,13 @@
 package bst
 
-func (N Node) HasNext() bool {
+func (N node) HasNext() bool {
 	return N.HasLeft() || N.HasRight()
 }
 
-func (N Node) HasLeft() bool {
+func (N node) HasLeft() bool {
 	return N.left != nil
 }
 
-func (N Node) HasRight() bool {
+func (N node) HasRight() bool {
 	return N.right != nil
 }

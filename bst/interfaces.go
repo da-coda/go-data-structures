@@ -16,17 +16,29 @@ type Sizer interface {
 	Width() int
 }
 
-type TraversableTreeNode interface {
+type Traversable interface {
 	HasNext() bool
 	HasLeft() bool
 	HasRight() bool
 }
 
-type TreeNode interface {
-	Comparable
+type Manipulable interface {
+	Add(key int, payload interface{}) error
+}
+
+type Accessible interface {
+	Get(key int) interface{}
+}
+
+type Tree interface {
 	Printer
 	Sizer
-	TraversableTreeNode
-	Add(key int, payload interface{}) error
-	Get(key int) interface{}
+	Manipulable
+	Accessible
+	Traversable
+}
+
+type TreeNode interface {
+	Comparable
+	Tree
 }

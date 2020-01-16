@@ -10,34 +10,34 @@ import "errors"
 	returns 0 if calling object is equal
 	returns negative if calling object is smaller
 */
-func (N Node) CompareTo(comparable Comparable) (int, error) {
-	node, ok := comparable.(Node)
+func (N node) CompareTo(comparable Comparable) (int, error) {
+	node, ok := comparable.(node)
 	if !ok {
-		return 0, errors.New("can't compare Node type to non-Node type")
+		return 0, errors.New("can't compare node type to non-node type")
 	}
 	return N.key - node.key, nil
 }
 
-func (N Node) GreaterThen(comparable Comparable) (bool, error) {
-	node, ok := comparable.(Node)
+func (N node) GreaterThen(comparable Comparable) (bool, error) {
+	node, ok := comparable.(node)
 	if !ok {
-		return false, errors.New("can't compare Node type to non-Node type")
+		return false, errors.New("can't compare node type to non-node type")
 	}
 	return N.key > node.key, nil
 }
 
-func (N Node) LesserThen(comparable Comparable) (bool, error) {
-	node, ok := comparable.(Node)
+func (N node) LesserThen(comparable Comparable) (bool, error) {
+	node, ok := comparable.(node)
 	if !ok {
-		return false, errors.New("can't compare Node type to non-Node type")
+		return false, errors.New("can't compare node type to non-node type")
 	}
 	return N.key < node.key, nil
 }
 
-func (N Node) EqualTo(comparable Comparable) (bool, error) {
-	node, ok := comparable.(Node)
+func (N node) EqualTo(comparable Comparable) (bool, error) {
+	node, ok := comparable.(node)
 	if !ok {
-		return false, errors.New("can't compare Node type to non-Node type")
+		return false, errors.New("can't compare node type to non-node type")
 	}
 	return N.key == node.key, nil
 }

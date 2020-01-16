@@ -2,7 +2,7 @@ package bst
 
 import "math"
 
-func (N Node) Depth() int {
+func (N node) Depth() int {
 	var left int
 	var right int
 	if !N.HasNext() {
@@ -21,7 +21,7 @@ func (N Node) Depth() int {
 	}
 }
 
-func (N Node) Width() int {
+func (N node) Width() int {
 	size := N.Depth()
 	return int(math.Pow(2.0, float64(size)))
 }

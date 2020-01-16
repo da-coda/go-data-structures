@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func (N Node) Print(space int, spaceSize int) {
+func (N node) Print(space int, spaceSize int) {
 	if N.HasRight() {
 		N.right.Print(space+spaceSize, N.Depth())
 	}
