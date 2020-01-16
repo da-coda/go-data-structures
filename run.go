@@ -1,6 +1,6 @@
 package main
 
-import "datastructures/bst"
+import "github.com/da-coda/go-data-structures/bst"
 
 func main() {
 	root := bst.NewRootNode(10, "root")

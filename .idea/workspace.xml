@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23841fcb-945a-49c9-a7c5-704d0dfa0459" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../datastructures/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructures/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructures/.idea/data-structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../datastructures/.idea/data-structures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructures/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datastructures/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructures/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../datastructures/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datastructures/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructures/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/../datastructures/run.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="move bst to own package in datastructures" />
-    <option name="LAST_COMMIT_MESSAGE" value="move bst to own package in datastructures" />
+    <MESSAGE value="correct module name" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct module name" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -128,10 +126,10 @@
       <screen x="0" y="366" width="1920" height="1080" />
     </state>
     <state x="687" y="538" width="535" height="705" key="#go_build_bst/0.366.1920.1080/1920.0.1080.1920@0.366.1920.1080" timestamp="1579177276791" />
-    <state x="571" y="489" width="768" height="803" key="CommitChangelistDialog2" timestamp="1579177405879">
+    <state x="571" y="489" width="768" height="803" key="CommitChangelistDialog2" timestamp="1579177594205">
       <screen x="0" y="366" width="1920" height="1080" />
     </state>
-    <state x="571" y="489" width="768" height="803" key="CommitChangelistDialog2/0.366.1920.1080/1920.0.1080.1920@0.366.1920.1080" timestamp="1579177405879" />
+    <state x="571" y="489" width="768" height="803" key="CommitChangelistDialog2/0.366.1920.1080/1920.0.1080.1920@0.366.1920.1080" timestamp="1579177594205" />
     <state x="737" y="634" width="424" height="510" key="FileChooserDialogImpl" timestamp="1579177323451">
       <screen x="0" y="366" width="1920" height="1080" />
     </state>
@@ -172,10 +170,10 @@
       <screen x="0" y="366" width="1920" height="1080" />
     </state>
     <state x="464" y="526" key="SettingsEditor/0.366.1920.1080/1920.0.1080.1920@0.366.1920.1080" timestamp="1579177330494" />
-    <state x="555" y="627" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1579177407694">
+    <state x="555" y="627" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1579177595433">
       <screen x="0" y="366" width="1920" height="1080" />
     </state>
-    <state x="555" y="627" width="800" height="526" key="Vcs.Push.Dialog.v2/0.366.1920.1080/1920.0.1080.1920@0.366.1920.1080" timestamp="1579177407694" />
+    <state x="555" y="627" width="800" height="526" key="Vcs.Push.Dialog.v2/0.366.1920.1080/1920.0.1080.1920@0.366.1920.1080" timestamp="1579177595433" />
     <state x="623" y="597" key="search.everywhere.popup" timestamp="1579174420137">
       <screen x="0" y="366" width="1920" height="1080" />
     </state>
