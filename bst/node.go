@@ -1,10 +1,14 @@
-package main
+package bst
 
 type Node struct {
 	key     int
 	payload interface{}
 	left    *Node
 	right   *Node
+}
+
+func NewRootNode(key int, payload interface{}) Node {
+	return Node{key: key, payload: payload}
 }
 
 func (N *Node) Add(key int, payload interface{}) error {

@@ -1,4 +1,4 @@
-package main
+package bst
 
 type Comparable interface {
 	CompareTo(comparable Comparable) (int, error)

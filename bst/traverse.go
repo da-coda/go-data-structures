@@ -1,4 +1,4 @@
-package main
+package bst
 
 func (N Node) HasNext() bool {
 	return N.HasLeft() || N.HasRight()
