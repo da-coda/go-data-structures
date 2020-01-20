@@ -12,7 +12,7 @@ type Printer interface {
 }
 
 type Sizer interface {
-	Depth() int
+	Height() int
 	Width() int
 }
 

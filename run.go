@@ -9,6 +9,6 @@ func main() {
 	root := bst.NewBinarySearchTree(10, "root")
 	_ = root.Add(8, "Hello")
 	_ = root.Add(13, "World")
-	root.Print(0, root.Depth())
+	root.Print(0, root.Height())
 	fmt.Print(root.Get(8))
 }

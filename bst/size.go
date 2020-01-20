@@ -2,17 +2,17 @@ package bst
 
 import "math"
 
-func (N node) Depth() int {
+func (N node) Height() int {
 	var left int
 	var right int
 	if !N.HasNext() {
 		return 1
 	}
 	if N.HasLeft() {
-		left = N.left.Depth()
+		left = N.left.Height()
 	}
 	if N.HasRight() {
-		right = N.right.Depth()
+		right = N.right.Height()
 	}
 	if left > right {
 		return 1 + left
@@ -22,6 +22,6 @@ func (N node) Depth() int {
 }
 
 func (N node) Width() int {
-	size := N.Depth()
+	size := N.Height()
 	return int(math.Pow(2.0, float64(size)))
 }

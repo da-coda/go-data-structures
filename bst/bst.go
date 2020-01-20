@@ -14,8 +14,8 @@ func (b BinarySearchTree) Print(space int, spaceSize int) {
 	b.root.Print(space, spaceSize)
 }
 
-func (b BinarySearchTree) Depth() int {
-	return b.root.Depth()
+func (b BinarySearchTree) Height() int {
+	return b.root.Height()
 }
 
 func (b BinarySearchTree) Width() int {

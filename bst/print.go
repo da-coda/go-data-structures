@@ -8,10 +8,10 @@ import (
 
 func (N node) Print(space int, spaceSize int) {
 	if N.HasRight() {
-		N.right.Print(space+spaceSize, N.Depth())
+		N.right.Print(space+spaceSize, N.Height())
 	}
 	fmt.Println(strings.Repeat(" ", space) + strconv.Itoa(N.key))
 	if N.HasLeft() {
-		N.left.Print(space+spaceSize, N.Depth())
+		N.left.Print(space+spaceSize, N.Height())
 	}
 }
