@@ -26,6 +26,10 @@ func (b *BinarySearchTree) Add(key int, payload interface{}) error {
 	return b.root.Add(key, payload)
 }
 
+func (b *BinarySearchTree) Remove(key int) error {
+	return b.root.Remove(key, b.root)
+}
+
 func (b BinarySearchTree) Get(key int) interface{} {
 	return b.root.Get(key)
 }

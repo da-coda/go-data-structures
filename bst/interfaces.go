@@ -24,6 +24,7 @@ type Traversable interface {
 
 type Manipulable interface {
 	Add(key int, payload interface{}) error
+	Remove(key int, parent TreeNode) error
 }
 
 type Accessible interface {
