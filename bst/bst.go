@@ -5,9 +5,8 @@ type BinarySearchTree struct {
 }
 
 // Creates a new Binary Search Tree.
-// A BST can only exists when it has at least a root node
-func NewBinarySearchTree(key int, payload interface{}) BinarySearchTree {
-	return BinarySearchTree{&node{key: key, payload: payload}}
+func NewBinarySearchTree() BinarySearchTree {
+	return BinarySearchTree{}
 }
 
 func (b BinarySearchTree) Print(space int, spaceSize int) {

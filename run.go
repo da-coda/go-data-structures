@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	root := bst.NewBinarySearchTree(10, "root")
+	root := bst.NewBinarySearchTree()
 	_ = root.Add(8, "Hello")
 	_ = root.Add(13, "World")
 	_ = root.Add(3, "World")
